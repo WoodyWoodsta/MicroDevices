@@ -1,0 +1,26 @@
+{
+ "folders":
+ [
+ {
+ "path": "./",
+ "file_exclude_patterns": [
+ "*.o",
+ "*.elf",
+ "*.gitignore",
+ "*.gitmodules",
+ ],
+ "folder_exclude_patterns": [
+   ".git",
+   "Debug",
+   "Release"
+ ]
+ }
+ ],
+
+  "settings":
+  {
+    "sublimegdb_commandline": "arm-none-eabi-gdb --interpreter=mi ./main.elf",
+    "sublimegdb_exec_cmd": "source connect.gdb",
+    "sublimegdb_workingdir": "."
+  }
+}
