@@ -1,0 +1,37 @@
+
+ //-====================-\\
+||-======PROCEDURES!=====-||
+ \\-====================-//
+
+
+==== OpenOCD setup:
+openocd-0.8.0.exe -f interface/stlink-v2.cfg -f target/stm32f0x_stlink.cfg
+
+==== GDB setup:
+
+  FLASH
+
+arm-none-eabi-gdb main.elf
+tar rem :3333
+mon reset halt
+lo
+cont
+
+  EMERGENCY RESET
+
+monitor flash erase_sector 0 0 0
+
+
+To calculate ARR:
+
+	      (1/f)(8000000)
+	ARR = --------------
+		     PSC + 1
+
+
+EXTI->PR |= EXTI_PR_PR0; // Clear the interrupt bit
+
+void TIM6_DAC_IRQHandler(); // Timer interrupt service routine
+void EXTI0_1_IRQHandler(); // PB 0 and 1 interrupt service routine
+void EXTI2_3_IRQHandler(); // PB 2 and 3 interrupt service routine
+
