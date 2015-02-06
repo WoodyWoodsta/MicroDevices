@@ -5,7 +5,7 @@
 
 
 ==== OpenOCD setup:
-openocd-0.8.0.exe -f interface/stlink-v2.cfg -f target/stm32f0x_stlink.cfg
+openocd -f interface/stlink-v2.cfg -f target/stm32f0x_stlink.cfg
 
 ==== GDB setup:
 
