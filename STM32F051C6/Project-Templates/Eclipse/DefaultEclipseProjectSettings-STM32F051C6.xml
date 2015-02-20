@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="Assembly Source File">
+<includepath>include</includepath>
+<includepath>system/include</includepath>
+<includepath>system/include/cmsis</includepath>
+<includepath>system/include/stm32f0-stdperiph</includepath>
+
+</language>
+<language name="C Source File">
+<includepath>include</includepath>
+<includepath>system/include</includepath>
+<includepath>system/include/cmsis</includepath>
+<includepath>system/include/stm32f0-stdperiph</includepath>
+
+</language>
+<language name="C++ Source File">
+<includepath>include</includepath>
+<includepath>system/include</includepath>
+<includepath>system/include/cmsis</includepath>
+<includepath>system/include/stm32f0-stdperiph</includepath>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="Assembly Source File">
+<macro>
+<name>DEBUG</name><value/>
+</macro>
+<macro>
+<name>USE_FULL_ASSERT</name><value/>
+</macro>
+<macro>
+<name>TRACE</name><value/>
+</macro>
+<macro>
+<name>OS_USE_TRACE_SEMIHOSTING_DEBUG</name><value/>
+</macro>
+<macro>
+<name>STM32F051</name><value/>
+</macro>
+<macro>
+<name>USE_STDPERIPH_DRIVER</name><value/>
+</macro>
+<macro>
+<name>HSE_VALUE</name><value>48000000</value>
+</macro>
+
+</language>
+<language name="C Source File">
+<macro>
+<name>DEBUG</name><value/>
+</macro>
+<macro>
+<name>USE_FULL_ASSERT</name><value/>
+</macro>
+<macro>
+<name>TRACE</name><value/>
+</macro>
+<macro>
+<name>OS_USE_TRACE_SEMIHOSTING_DEBUG</name><value/>
+</macro>
+<macro>
+<name>STM32F051</name><value/>
+</macro>
+<macro>
+<name>USE_STDPERIPH_DRIVER</name><value/>
+</macro>
+<macro>
+<name>HSE_VALUE</name><value>48000000</value>
+</macro>
+
+</language>
+<language name="C++ Source File">
+<macro>
+<name>DEBUG</name><value/>
+</macro>
+<macro>
+<name>USE_FULL_ASSERT</name><value/>
+</macro>
+<macro>
+<name>TRACE</name><value/>
+</macro>
+<macro>
+<name>OS_USE_TRACE_SEMIHOSTING_DEBUG</name><value/>
+</macro>
+<macro>
+<name>STM32F051</name><value/>
+</macro>
+<macro>
+<name>USE_STDPERIPH_DRIVER</name><value/>
+</macro>
+<macro>
+<name>HSE_VALUE</name><value>48000000</value>
+</macro>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+</cdtprojectproperties>
